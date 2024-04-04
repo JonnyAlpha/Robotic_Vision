@@ -2,9 +2,11 @@
 A repository to store programs associated with robotic vision using python and opencv.
 
 face_detection.py - a python program that uses OpenCV to detect faces in a live video feed
+
 face_recognition.py - a python program that uses OpenCV to attempts to recognise a face in live video, made by following this guide:
 https://www.datacamp.com/tutorial/face-detection-python-opencv
 
+face_recognition_alt.py - a python program that uses OpenCV to check a detected face in a live video feed against a refenence .jpg image
 
 The following three programs have been written for a raspberry Pi combined with a PiBorg MonsterBorg Chassis. 
 The motor driver in the chassis is a ThunderBorg. 
