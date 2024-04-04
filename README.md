@@ -1,7 +1,12 @@
 # Robotic_Vision
 A repository to store programs associated with robotic vision using python and opencv.
 
-The code has been written for a raspberry Pi combined with a PiBorg MonsterBorg Chassis. 
+face_detection.py - a python program that uses OpenCV to detect faces in a live video feed
+face_recognition.py - a python program that uses OpenCV to attempts to recognise a face in live video, made by following this guide:
+https://www.datacamp.com/tutorial/face-detection-python-opencv
+
+
+The following three programs have been written for a raspberry Pi combined with a PiBorg MonsterBorg Chassis. 
 The motor driver in the chassis is a ThunderBorg. 
 
 The following three programs were developed to work together:
@@ -14,7 +19,5 @@ maze_image_processing - is the main file that calls the other two files and cont
 
 The scripts are not yet working as there is a bug that I am currently working on.
 
-The fourth file is:
-face_recognition.py - a simple script that detetcs faces in live video, made by following this guide:
-https://www.datacamp.com/tutorial/face-detection-python-opencv
+
 
